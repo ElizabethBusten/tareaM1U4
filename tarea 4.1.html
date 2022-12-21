@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 4.1</title>
+</head>
+
+<body>
+<script>
+    const numeros = [30, 382, 1390, 1094]
+    console.log(numeros.length)
+    console.log(numeros)
+
+    for( let i = 0; i < numeros.length; i++){
+			console.log('tenemos ' + numeros[i])
+    }
+
+    if (numeros[0] > numeros[1] && numeros[0] > numeros[2] && numeros[0] > numeros[3]) {
+			document.write(`el mayor es el  ${numeros[0]}`);
+            console.log(`el mayor es el  ${numeros[0]}`);
+		} else if (numeros[1] > numeros[2] && numeros[1] > numeros[3]) {
+			document.write(`el mayor es el  ${numeros[1]}`);
+            console.log(`el mayor es el  ${numeros[1]}`);
+		} else if (numeros[2] > numeros[3]) {
+			document.write(`el mayor es el  ${numeros[2]}`);
+            console.log(`el mayor es el  ${numeros[2]}`);
+        } else {
+			document.write(`el mayor es el  ${numeros[3]}`);
+            console.log(`el mayor es el  ${numeros[3]}`);
+		}
+
+</script>
+    
+</body>
+</html>
